@@ -1,4 +1,5 @@
-from django.urls import path
+from tokenize import group
+from django.urls import URLPattern, path
 from . import views
 
 app_name = 'posts'
